@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sortable Ninja</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/hot-sneaks/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+        <script type="text/javascript">
+             $(document).ready(function(){
+                $('.dragme').draggable();
+             });
+        </script>
+        <style type="text/css">
+            #wrapper{
+                background: lightblue;
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+                <img class="ui-widget-content dragme" src="sorting_images/sort1.png" />
+                <img class="ui-widget-content dragme" src="sorting_images/sort2.png" />
+                <img class="ui-widget-content dragme" src="sorting_images/sort3.png" />
+                <img class="ui-widget-content dragme" src="sorting_images/sort4.png" />
+                <img class="ui-widget-content dragme" src="sorting_images/sort5.png" />
+        </div> <!--end of wrapper-->
+    </body>
+</html>
